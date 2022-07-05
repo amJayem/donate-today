@@ -64,10 +64,7 @@ body{
 .divide-width{
     height: 80px;
     width: 80px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 6%;
     background-color: #FAFAFA;
     color: #707070;
 }
@@ -83,7 +80,7 @@ body{
 input{
     border: none;
     border-bottom: 1px solid #DADADA;
-    width: 50%;
+    width: 80%;
     outline: none;
     text-align:center;
 }
