@@ -41,6 +41,7 @@ body{
     padding: 10px 30px;
     border-radius: 5px;
     color: #fff;    
+    border: none;
 }
 .link-button:hover{
     background-color: #fff;
@@ -53,17 +54,16 @@ body{
 
 .donate-today {
     text-align: center;
-    padding: 20px;
-    margin: 90px;
+    margin: 50px 30%;
 }
-
+.donate-today p{
+    color: #ABABAB;
+}
 .flexible-container{
     display: flex;
 }
 
 .divide-width{
-    height: 80px;
-    width: 80px;
     margin-left: 6%;
     background-color: #FAFAFA;
     color: #707070;
@@ -89,3 +89,136 @@ input{
 /*
 ---------------donate-plan---------start
 */
+.donate-plan{
+    text-align: center;
+    margin: 50px 10%;
+}
+
+.donate-plan p{
+    color: #ABABAB;
+    margin: 50px 20%;
+
+}
+
+.one-third-width{
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+#food{
+    background-repeat: no-repeat;
+    text-align: left;
+    background-color: #EDF5F6;
+    
+}
+#shelter{
+    background-repeat: no-repeat;
+    text-align: left;
+    background-color: #FFEEEE;
+}
+#education{
+    background-repeat: no-repeat;
+    text-align: left;
+    background-color: #FFF4D6;
+}
+
+/*
+------------feed-------start----
+*/
+.feed{
+    margin: 90px;
+}
+.feed p{
+    color: #ABABAB;
+}
+
+.divide-feed{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.divide-feed img{
+    height: 100%;
+    width: 100%;
+}
+
+/*
+--------------get-my-update-----------start----
+*/
+
+.get-my-updates{
+    text-align: center;
+    margin: 50px 100px;
+    
+}
+.get-my-updates p{
+    color: #ABABAB;
+    margin: 20px 110px;
+}
+
+.form-area{
+    background-color: #FFF4D6;
+    height: 200px;
+    width: 800px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.form-area input{
+    height: 40px;
+    width: 250px;
+    margin: 70px;
+    margin-right: 0;
+    padding-left: 15px;
+    text-align: left;
+    background-color: #D9D9D9;
+}
+
+.form-area button{
+    height: 40px;
+    width: 115px;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    margin-left: 0;
+}
+
+.form-area button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/* #form2 input{
+    background-color: #D9D9D9;
+    border: none;
+    height: 50px;
+    width: 350px;
+    text-align:left;
+    padding-left: 10px;
+} */
+
+
+/*
+----------------footer-------start----
+*/
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 10px
+}
+
+footer h2{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+
+}
+
+footer small{
+    color: #75777F;
+}
